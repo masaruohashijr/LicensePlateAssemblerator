@@ -21,7 +21,6 @@ public class LicensePlateIteratorTest {
 		LicensePlateIterator licensePlateIterator = new LicensePlateIterator(ar.iterator());
 		assertTrue(licensePlateIterator.hasNext());
 		LicensePlate next = licensePlateIterator.next();
-		System.out.println(next.get_code());
 		assertTrue(licensePlateIterator.hasNext());
 	}
 	
